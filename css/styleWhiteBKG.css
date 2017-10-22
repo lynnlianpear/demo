@@ -1,0 +1,248 @@
+@font-face{
+	font-family: 'nexaBook';
+	src: url(../fonts/Nexa_Book-webfont.woff2);
+	font-weight: 500;
+}
+
+@font-face{
+	font-family: 'nexaBook';
+	src: url(../fonts/Nexa_Heavy-webfont.woff2);
+	font-weight: 800;
+}
+
+body{
+	background-image: url("bg-img.png");
+	background-repeat: repeat;
+	background-color:  #FFF;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-family: 'nexaBook', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+a{
+	color: #111;
+	text-decoration: none;
+}
+
+nav, .container{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+nav ul{
+	display: inline-block;
+	width: 80%;
+	vertical-align: middle;
+	text-align: right;
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 1.2rem;
+	margin-top: top;
+	padding: 15px;
+}
+
+nav ul li a{
+	transition: color .5s ease;
+}
+
+nav ul li a:hover{
+	color: #5f1f1f;
+}
+
+
+.register{
+	border: solid;
+	padding: 0.5rem;
+	border-radius: 10%;
+	border-color: #111;
+	transition: color .5s ease;
+}
+
+.register:hover{
+	border-color: #5f1f1f;
+}
+
+nav .navBar{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	color: #d84f4b;
+}
+
+img{
+	width: 100%;
+}
+
+
+html{
+	position:relative;
+	min-height: 100%;
+}
+
+footer{
+	position: absolute;
+	margin-top: 2em;
+	background-color: #333;
+	color: #AAA;
+	padding: 2em;
+	width: 100%;
+	right: 0;
+/*	bottom: 0;*/
+    left: 0;
+}
+
+.rowWhite{
+	height:20rem;
+	background-color: #fff;
+	margin-top: 10rem;
+	padding: 2rem;
+	margin-bottom: 30rem;
+}
+
+.rowhite:after{
+	content: ''; 
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+.icon{
+	width: 100px;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.download h1{
+	font-size: 3rem;
+	font-weight: 800;
+	color:#d84f4b;
+}
+
+.download h2{
+	font-size: 1.5rem;
+}
+
+.login h1{
+	font-weight: 800;
+	font-size: 2rem;
+}
+
+.left{
+	float: left;
+	width: 50%;
+}
+
+.right{
+	float: right;
+	width: 50%;
+}
+
+.ui{
+	width: 300px;
+	margin-top: -9rem;
+}
+
+.row{
+	margin-top: 0rem;
+	padding: 2rem;
+	margin-bottom: 30rem;
+}
+
+.row:after{
+	content:''; 
+	clear: both;
+	width: 100%;
+	display: block;
+}
+.appStoreIcon{
+	width: 300px;
+	border-radius: 10%;
+}
+
+.socialMediaIcon{
+	width: 50px;
+}
+
+
+div.loginForm{
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	background-color: #d84f4b;
+	text-align: center;
+	padding: 2em;
+	border-radius: 3em;
+	color: white;
+	font-weight: 800;
+	margin-bottom: 10em;
+}
+
+input, .btn-send{
+	text-align: center;
+	height: 4rem;
+	font-size: 2rem;
+	padding:0.6rem;
+	border: 1px solid #eed;
+	margin-bottom: 2rem;
+	transition: background-color .5s linear;
+	background-color: #EEE;
+	border-radius: 3rem;
+	color: #ddd;
+	width: 70%;
+}
+
+input:hover{
+	background-color: white;
+}
+
+.btn-send{
+	border: 3px solid #fff;
+	cursor: pointer;
+	background-color: #d84f4b;
+	color: white;
+	font-weight: 800;
+}
+
+.btn-send:hover{
+	background-color: #ab1b1b;
+}
+
+.login p{
+	font-size: 1.5rem;
+	margin-top: -1rem;
+
+}
+
+a.login{
+	color: white;
+	text-decoration: underline;
+}
+
+footer ul li {
+	list-style-type: none;
+}
+
+.terms{
+	line-height: 2rem;
+	width: 40%;
+}
+
+footer ul li .socialMedia{
+	display: inline-block;
+	text-align: right;
+	width: 50px;
+}
+
+.socialMedia{
+	width: 40%;
+}
+
